@@ -572,6 +572,7 @@ header .drawer {
 
   header .header_nav ul li.contact {
     width: 30%;
+    margin: 5% auto;
   }
 
   .body.nav-open header .drawer {
@@ -612,24 +613,29 @@ header .drawer {
   }
 
   header .header_nav ul li a {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   header .header_nav ul li.contact {
     width: 50%;
   }
 
+  .top_wrapper {
+    display: block;
+  }
+
   .top_right {
-    width: 50%;
-    margin: 10% 0;
+    width: 80%;
+    margin: 10% auto;
   }
 
   .top_left {
-    width: 50%;
-    margin: 10% 0;
+    width: 80%;
+    margin: 10% auto;
   }
 
   .top_left img {
+    margin-left: 20%;
     width: 70%;
     height: 70%;
   }
@@ -639,11 +645,15 @@ header .drawer {
   }
 
   .font1 {
-    font-size: 0.9em;
+    font-size: 1.5em;
+  }
+
+  .font1 p {
+    width: 100%;
   }
 
   .font1 small {
-    font-size: 0.3em;
+    font-size: 0.6em;
   }
 
   .font2 {
@@ -685,14 +695,20 @@ header .drawer {
   .app_right img {
     width: 40%;
     height: 40%;
+    margin: 2% auto;
   }
 
   .descript {
     font-size: 0.8em;
   }
 
+  .how_wrapper {
+    display: block;
+  }
+
   .how_block {
-    width: 40%;
+    width: 70%;
+    margin: 3% auto;
   }
 
   .how_list {
@@ -700,7 +716,7 @@ header .drawer {
   }
 
   .how_list li {
-    font-size: 0.3em;
+    font-size: 0.8em;
   }
 
   .faq_txt {
@@ -712,11 +728,11 @@ header .drawer {
   }
 
   .btn {
-    width: 50%;
+    width: 60%;
   }
 
   .btn a {
-    font-size: 0.6em;
+    font-size: 1em;
   }
 
   .footer_wrapper {
@@ -754,26 +770,32 @@ header .drawer {
 /*  300px */
 @media screen and (max-width: 300px) {
   .top_right {
-    width: 70%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .top_left img {
+    margin-left: 15%;
   }
 
   .font1 {
-    width: 90%;
+    width: 100%;
   }
 
   .font1 p {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   .font1 small {
-    width: 50%;
+    font-size: 0.5em;
   }
+
   .font3 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   .font4 {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .font5 {
     font-size: 0.8em;
@@ -788,19 +810,20 @@ header .drawer {
   }
 
   .how_block {
-    width: 40%;
+    width: 80%;
   }
 
   .how_list {
-    width: 80%;
+    width: 70%;
   }
 
   .how_list li {
     width: 100%;
+    font-size: 0.75em;
   }
 
   .how_list p {
-    font-size: 0.5em;
+    font-size: 1em;
   }
 
   .faq_txt {
