@@ -830,6 +830,10 @@ header .drawer {
     font-size: 0.7em;
   }
 
+  .btn {
+    width: 70%;
+  }
+
   .news_txt {
     font-size: 0.7em;
   }
