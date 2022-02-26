@@ -575,7 +575,7 @@ header .drawer {
     margin: 5% auto;
   }
 
-  .body.nav-open header .drawer {
+  body.nav-open header .drawer {
     border-top: 0;
   }
 
